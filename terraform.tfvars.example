@@ -3,3 +3,4 @@ bucket_name="roopish-8e864bc7-b373-4447-a2f7-d12df50cda76"
 index_html_filepath="/workspace/terraform-beginner-bootcamp-2023/public/index.html"
 error_html_filepath="/workspace/terraform-beginner-bootcamp-2023/public/error.html"
 content_version=1
+assets_path="/workspace/terraform-beginner-bootcamp-2023/public/assets/"
