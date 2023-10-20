@@ -10,25 +10,16 @@ variable "terratowns_endpoint" {
  type = string
 }
 
-
-# variable "bucket_name" {
-#  type = string
-# }
-
-variable "index_html_filepath" {
-  type = string
+variable "climatechange" {
+  type = object({
+    public_path = string
+    content_version = number
+  })
 }
 
-
-variable "error_html_filepath" {
-  type = string
-}
-
-variable "content_version" {
-  type        = number
-}
-
-variable "assets_path" {
-  description = "Path to assets folder"
-  type = string
+variable "travel" {
+  type = object({
+    public_path = string
+    content_version = number
+  })
 }
