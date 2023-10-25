@@ -128,8 +128,11 @@ After Deploying test Terratown to missingo
 ![image](./assets/week2/Week2_DeployTerraTowns2B.PNG)
 
 **Note:** this test town is destroyed and 2 other towns were deployed to the-nomad-pad and melomaniac-mansion
+### the-nomad-pad
+![image](./assets/week2/Week2_DeployFinalTravelTown.PNG)
 
-
+### melomaniac-mansion
+![image](./assets/week2/Week2_DeployFinalMusicTown.PNG)
 
 #### Resolving Bucket name conflict
 Since s3 bucket_name has to be unique we changed the name from `OAC ${var.bucket_name}` to `OAC ${aws_s3_bucket.website_bucket.bucket}` to avoid conflicts. In [resource-cdn.tf](https://github.com/DataCleansingEnthusiast/terraform-beginner-bootcamp-2023/blob/main/modules/terrahome_aws/resource-cdn.tf) 

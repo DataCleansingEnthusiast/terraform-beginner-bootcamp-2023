@@ -10,12 +10,20 @@ variable "terratowns_endpoint" {
  type = string
 }
 
-variable "climatechange" {
+# variable "climatechange" {
+#   type = object({
+#     public_path = string
+#     content_version = number
+#   })
+# }
+
+variable "music" {
   type = object({
     public_path = string
     content_version = number
   })
 }
+
 
 variable "travel" {
   type = object({
